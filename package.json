@@ -1,5 +1,5 @@
 {
-  "name": "placeholder-shown-pollyfill",
+  "name": "placeholder-shown-polyfill",
   "version": "1.0.1",
   "description": "Polyfill for pseudo class attribute :placeholder-shown ",
   "main": "index.js",
