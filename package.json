@@ -1,6 +1,6 @@
 {
   "name": "placeholder-shown-pollyfill",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Polyfill for pseudo class attribute :placeholder-shown ",
   "main": "index.js",
   "scripts": {
