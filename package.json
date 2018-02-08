@@ -1,0 +1,31 @@
+{
+  "name": "placeholder-shown-pollyfill",
+  "version": "1.0.0",
+  "description": "Polyfill for pseudo class attribute :placeholder-shown ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sesubash/placeholder-shown-polyfill.git"
+  },
+  "keywords": [
+    "placeholder-shown",
+    "polyfill",
+    "polyfill",
+    "for",
+    "placeholder-shown",
+    ":placeholder-shown",
+    "polyfill",
+    "polyfill",
+    "for",
+    ":placeholder-shown"
+  ],
+  "author": "Subash Selvaraj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sesubash/placeholder-shown-polyfill/issues"
+  },
+  "homepage": "https://github.com/sesubash/placeholder-shown-polyfill#readme"
+}
