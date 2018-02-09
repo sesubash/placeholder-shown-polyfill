@@ -1,7 +1,7 @@
 {
   "name": "placeholder-shown-polyfill",
-  "version": "1.0.4",
-  "description": "Polyfill for pseudo class attribute :placeholder-shown ",
+  "version": "1.0.6",
+  "description": "Polyfill for pseudo selector :placeholder-shown ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,15 +12,9 @@
   },
   "keywords": [
     "placeholder-shown",
+    "polyfill for :placeholder-shown",
     "polyfill",
-    "polyfill",
-    "for",
-    "placeholder-shown",
     ":placeholder-shown",
-    "polyfill",
-    "polyfill",
-    "for",
-    ":placeholder-shown"
   ],
   "author": "Subash Selvaraj",
   "license": "MIT",

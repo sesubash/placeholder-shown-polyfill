@@ -1,5 +1,7 @@
 # placeholder-shown-pollyfill
-Pollyfill for pseudo class :placeholder-shown
+Polyfill for pseudo selector :placeholder-shown
+
+SPEC: https://drafts.csswg.org/selectors-4/#placeholder
 
 Reference:  https://codepen.io/wesbos/pen/KggoOo
 

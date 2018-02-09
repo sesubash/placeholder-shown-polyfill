@@ -1,3 +1,7 @@
+//==================================================
+// Polyfill for pseudo selector :placeholder-shown
+// Author: Subash Selvaraj(github userid:sesubash)
+//==================================================
 (function(){
 
   function init() {
