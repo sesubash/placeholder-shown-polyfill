@@ -8,7 +8,7 @@ Reference:  https://codepen.io/wesbos/pen/KggoOo
 Usage:
 
 intallation:
-npm install placeholder-shown-pollyfill
+npm install placeholder-shown-polyfill
 
 HTML:
 <input type="text" placeholder="First Name">
