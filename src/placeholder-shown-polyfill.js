@@ -2,7 +2,9 @@
 
   function init() {
     document.querySelectorAll('[placeholder]').forEach(el => {
-      placeholderPolyfill.call(el);
+      if(el.getAttribute('placeholder') != "")
+        placeholderPolyfill.call(el);
+
       el.addEventListener('change', placeholderPolyfill);
       el.addEventListener('keyup', placeholderPolyfill);
     });
