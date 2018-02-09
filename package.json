@@ -14,7 +14,7 @@
     "placeholder-shown",
     "polyfill for :placeholder-shown",
     "polyfill",
-    ":placeholder-shown",
+    ":placeholder-shown"
   ],
   "author": "Subash Selvaraj",
   "license": "MIT",
