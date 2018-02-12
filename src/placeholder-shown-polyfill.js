@@ -5,7 +5,7 @@
 (function(){
 
   function init() {
-    document.querySelectorAll('[placeholder]').forEach(el => {
+    document.querySelectorAll('[placeholder]').forEach(function(el) {
       if(el.getAttribute('placeholder') != "")
         placeholderPolyfill.call(el);
 
