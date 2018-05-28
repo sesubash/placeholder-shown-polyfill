@@ -4,24 +4,30 @@
 //==================================================
 (function(){
 
-  function init() {
-    document.querySelectorAll('[placeholder]').forEach(function(el) {
-      if(el.getAttribute('placeholder') != "")
-        placeholderPolyfill.call(el);
+  var placeholderShownPolyfill = {
+    init: function() {
+      var self = this;
+      document.querySelectorAll('[placeholder]').forEach(function(el) {
+        if(el.getAttribute('placeholder') != "")
+          self.updatePlaceholder.call(el);
 
-      el.addEventListener('change', placeholderPolyfill);
-      el.addEventListener('keyup', placeholderPolyfill);
-    });
-  }
+        el.addEventListener('change', self.updatePlaceholder);
+        el.addEventListener('keyup', self.updatePlaceholder);
+      });
+    },
 
-  function placeholderPolyfill() {
-    this.classList[this.value ? 'remove' : 'add']('placeholder-shown');
-  }
+    updatePlaceholder: function() {
+      this.classList[this.value ? 'remove' : 'add']('placeholder-shown');
+    }
+
+  };
 
   if (/^[c|i]|d$/.test(document.readyState || "")) {
-  	init();
+    placeholderShownPolyfill.init();
   } else {
-  	document.addEventListener("DOMContentLoaded", init);
+    document.addEventListener("DOMContentLoaded", placeholderShownPolyfill.init());
   }
+
+  window.placeholderShownPolyfill = placeholderShownPolyfill;
 
 })();
