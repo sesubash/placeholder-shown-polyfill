@@ -1,4 +1,4 @@
-# placeholder-shown-pollyfill
+# placeholder-shown-polyfill
 Polyfill for pseudo selector :placeholder-shown
 
 SPEC: https://drafts.csswg.org/selectors-4/#placeholder
